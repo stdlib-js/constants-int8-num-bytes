@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import INT8_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-num-bytes@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-int8-num-bytes/tags). For example,
+
+```javascript
 import INT8_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-num-bytes@v0.2.1-esm/index.mjs';
 ```
 
@@ -72,7 +77,7 @@ var bool = ( INT8_NUM_BYTES === 1 );
 <body>
 <script type="module">
 
-import INT8_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-num-bytes@v0.2.1-esm/index.mjs';
+import INT8_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-num-bytes@esm/index.mjs';
 
 console.log( INT8_NUM_BYTES );
 // => 1
